@@ -1,0 +1,23 @@
+﻿# Secrets
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+ENV/
+
+# Data
+library/data/*.json
+!library/data/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
